@@ -7,12 +7,155 @@
   font-family: "Roboto";
 }
 
+ul {
+  list-style-type: none;
+}
+
 .first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
   background-color: #1F2937;
   color: #fff;
   padding: 16px;
 }
 
-ul {
-  list-style-type: none;
+.first-section > header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 60px;
+}
+
+.first-section > header > p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.first-section > header > ul {
+  display: flex;
+  gap: 8px;
+}
+
+.first-section > header > ul > li {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.first-section > div {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.first-section > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.first-section > div > div > div > button {
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #3882F6;
+}
+
+.first-section-title {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
+}
+
+.second-section > div {
+  display: flex;
+  gap: 16px;
+}
+
+.second-section > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  gap: 6px;
+}
+
+.second-section > div > div > img {
+  border: 2px solid skyblue;
+  border-radius: 10px;
+}
+
+.second-section > div > div > p {
+  color: rgb(97, 97, 97);
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 32px;
+}
+
+.third-section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 700px;
+}
+
+.third-section-p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.idk {
+  text-align: right;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.fourth-section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #3882F6;
+  width: 700px;
+  padding: 20px;
+  color: #fff;
+}
+
+.fourth-section-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+footer {
+  padding: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #1F2937;
 }
